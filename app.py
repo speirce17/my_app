@@ -108,7 +108,7 @@ else:
 #st.write(f"Education (post-conversion): {education}")
 
 import pandas as pd
-s = pd.read_csv("/Users/sydneypeirce/Desktop/my_app/social_media_usage.csv")
+s = pd.read_csv("social_media_usage.csv")
 
 ss = pd.DataFrame({
         "parent":np.where(s["par"] >= 8, np.nan,
