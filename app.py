@@ -19,7 +19,7 @@ st.write("image source: Google")
 
 st.subheader("Please provide your responses to the following:")
  ## Age
-age = st.slider('Please drag the slider to select your age', 0, 97)
+age = st.slider('Please drag the slider to select your age:', 0, 97)
 st.write("Age:", age)
 
 ## Gender
@@ -56,7 +56,7 @@ else:
 #st.write(f"Parent (post-conversion): {parent}")
 
 ## Income
-income = st.radio('Please select yout income range from the dropdown',
+income = st.radio('Please select your income range:',
 ['Less than $10,000', '10 to under $20,000', '20 to under $30,000', '30 to under $40,000', '40 to under $50,000', 
 '50 to under $75,000', '75 to under $100,000', '100 to under $150,000', '$150,000 or more'])
 st.write(f"You selected:{income}")
