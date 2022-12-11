@@ -23,7 +23,7 @@ age = st.slider('Please drag the slider to select your age:', 0, 97)
 st.write("Age:", age)
 
 ## Gender
-gender = st.radio('Gender', ['Female', 'Male', 'Other'])
+gender = st.radio('Gender:', ['Female', 'Male', 'Other'])
 st.write(f"You selected: {gender}")
 
 if gender == "Female":
@@ -83,7 +83,7 @@ else:
 #st.write(f"Income (post-conversion): {income}")
 
 ## Education
-education = st.radio('Please select your highest level of education', ['Less than high school', 'High school incomplete', 'High school graduate', 
+education = st.radio('Please select your highest level of education:', ['Less than high school', 'High school incomplete', 'High school graduate', 
 'Some college, no degree', 'Two-year associate degree', 'Four-year college or university degree/Bachelor’s degree', 
 'Some postgraduate or professional schooling', 'Postgraduate or professional degree'])
 st.write(f"You selected: {education}")
