@@ -180,9 +180,4 @@ else:
 st.sidebar.subheader("Thank you for using the LinkedIn User Prediction App! This app takes user input and predicts the probability that the user is a LinkedIn user. Please enter your information to see the prediction!")
 st.sidebar.write("Created by: Sydney Peirce for OPIM-607")
 
-if st.sidebar.checkbox("Display data", False):
-    st.subheader("Show dataset")
-    st.write(ss)
-    st.write("Data source: LinkedIn marketing analytics team")
-
 
