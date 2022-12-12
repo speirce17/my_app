@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 #### Add header to describe app
 st.title("LinkedIn User Analysis Prediction")
-st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhow-to-create-a-company-page-on-linkedin%2F&psig=AOvVaw3qQHIzFIttGbn9tsD79a4r&ust=1670727939664000&source=images&cd=vfe&ved=0CA8QjRxqGAoTCLiDydyI7vsCFQAAAAAdAAAAABCQAg')
+st.image("https://leadgenera.lg-cms.com/wp-content/uploads/2022/09/Is-LinkedIn-the-Ultimate-Business-Tool-Lead-Genera.png")
 st.write("image source: Google")
 
 st.subheader("Please provide your responses to the following:")
