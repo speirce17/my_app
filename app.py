@@ -172,7 +172,7 @@ else:
 probs = lr.predict_proba([user])
 
 if st.button('Predict'):
-    st.write(f"Probability that you are a LinkedIn User: {probs[0][1].round(3)*2}")
+    st.write(f"Probability that you are a LinkedIn User: {probs[0][1].round(3)}")
     st.write(f"This person is: {predicted_class_label}")
 else:
     st.write(" ")
