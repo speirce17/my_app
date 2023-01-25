@@ -8,7 +8,6 @@ import altair as alt
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
-import plotly.graph_objects as go
 from sklearn.model_selection import train_test_split
 
 #### Add header to describe app
